@@ -12,8 +12,5 @@ public interface CAppID {
 
     //bugTags
     String BUG_TAG_ID = "dbdef3b717b3b796208e95a432a7684c";
-
-    String MI_APP_ID ="2882303761517504742";
-    String MI_APP_KEY ="5501750428742";
-
+    
 }
