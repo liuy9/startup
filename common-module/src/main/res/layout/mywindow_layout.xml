@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#99000000">
+
+    <TextView
+        android:id="@+id/memory_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/red_point_color"
+        />
+
+    <TextView
+        android:id="@+id/current_memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/red_point_color"
+        />
+
+    <TextView
+        android:id="@+id/memory_low"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/red_point_color"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_gravity="bottom"
+              android:background="@color/background_color"
+              android:orientation="vertical"
+              app:layout_behavior="com.cicada.daydaybb.common.ui.behavior.FloatingDownBehavior">
+
+
+    <include layout="@layout/activity_line_horizontal"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="horizontal">
+
+        <ImageView android:layout_width="22dp"
+                   android:layout_height="22dp"
+                   android:layout_gravity="center_vertical"
+                   android:layout_margin="12dp"
+                   android:src="@drawable/icon_comment"
+        />
+
+        <TextView
+            android:id="@+id/et_input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:hint="说说你的看法"
+            android:imeOptions="actionSend"
+            android:inputType="text"
+            android:lines="1"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:singleLine="true"
+            android:textColor="#9B9B9B"
+            android:textSize="14dp"
+        />
+
+    </LinearLayout>
+    <include layout="@layout/activity_line_horizontal"/>
+</LinearLayout>
